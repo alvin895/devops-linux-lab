@@ -1,0 +1,3 @@
+Day 1 - linux cli
+Learning Linux Command
+I am learning Linux with wsl.
