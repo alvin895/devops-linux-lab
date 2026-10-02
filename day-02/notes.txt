@@ -1,0 +1,29 @@
+Day 2 Notes
+
+Today I learned how to inspect and work with the Linux filesystem.
+
+Important things I learned:
+
+- tree shows directory structure.
+- find searches for files and directories.
+- file shows the type of a file.
+- stat shows detailed file metadata.
+- du shows disk usage.
+- df shows filesystem disk usage.
+- cat reads file content.
+- less reads files page by page.
+- head shows the beginning of a file.
+- tail shows the end of a file.
+- wc counts lines, words, and characters.
+
+I also learned that commands must be used with the correct path.
+
+For example:
+
+cat test.txt
+cat review/test.txt
+
+The result depends on my current working directory.
+
+I am getting more comfortable navigating and inspecting
+the Linux filesystem through the terminal.

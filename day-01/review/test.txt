@@ -1,0 +1,2 @@
+Day 1 Review
+Practicing Linux CLI 
