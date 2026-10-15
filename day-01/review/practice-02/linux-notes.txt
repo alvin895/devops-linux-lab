@@ -1,0 +1,2 @@
+Linux CLI Practice 02
+Reviewing basic commands
