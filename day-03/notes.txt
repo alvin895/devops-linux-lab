@@ -1,0 +1,48 @@
+Day 3 - Linux Users & Permissions
+================================
+
+1. Users and Groups
+- whoami: Menampilkan username yang sedang aktif.
+- id: Menampilkan UID, GID, dan grup pengguna.
+- groups: Menampilkan daftar grup pengguna.
+- UID adalah identitas numerik pengguna.
+- GID adalah identitas numerik grup utama pengguna.
+
+2. File Permissions
+- ls -l: Menampilkan permission, owner, group, ukuran, dan informasi file.
+- chmod: Mengubah permission file atau directory.
+- chown: Mengubah owner file atau directory.
+- chgrp: Mengubah group file atau directory.
+
+3. Permission Symbols
+- r (read): Membaca file atau melihat daftar isi directory.
+- w (write): Mengubah file; pada directory, mengatur entri seperti membuat atau menghapus file.
+- x (execute): Menjalankan file atau mengakses directory.
+
+4. Numeric Permissions
+- 4 = read (r)
+- 2 = write (w)
+- 1 = execute (x)
+- 644 = rw-r--r--
+- 600 = rw-------
+- 755 = rwxr-xr-x
+
+5. Practice Results
+- permission-lab.txt diubah ke permission 600 menggunakan chmod.
+- Permission permission-lab.txt dikembalikan ke 644.
+- Group permission-lab.txt berhasil diubah menjadi users menggunakan chgrp.
+- Owner file tetap alvinghaza.
+- umask menampilkan 0022.
+- File baru umask-test.txt memiliki permission 644.
+
+6. Administrative Commands
+- sudo: Menjalankan perintah dengan hak pengguna lain jika diizinkan.
+- sudo -l: Melihat perintah yang boleh dijalankan melalui sudo.
+- su: Berpindah ke akun pengguna lain, bergantung pada konfigurasi dan autentikasi.
+- Password Linux tidak ditampilkan secara langsung oleh perintah biasa.
+
+7. Important Notes
+- Permission file dan directory memiliki makna yang berbeda.
+- umask memengaruhi permission default saat file atau directory dibuat.
+- chown telah dipelajari, tetapi belum berhasil dipraktikkan untuk mengubah owner.
+- Perintah su baru dipelajari melalui su --help; belum digunakan untuk berpindah akun.

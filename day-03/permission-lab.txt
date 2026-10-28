@@ -1,0 +1,2 @@
+Linux Permission Lab
+Practice file for chmod and chgrp.
